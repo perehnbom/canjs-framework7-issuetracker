@@ -1,0 +1,47 @@
+    <div class="list-block issue-content">
+      <ul>
+      	<li class="item-content">
+          <div class="item-inner title">
+            <input type="text" class="title" placeholder="Title" can-value="issue.title">
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner description">
+            <textarea class="description" placeholder="Description" can-value="issue.description"></textarea>
+	
+          </div>
+        </li>
+       
+        <li>
+			<div class="item-content ">
+			
+				<div class="item-inner status">
+				<div class="item-title label">Status</div>
+				<div class="item-input">
+					<select can-value="issue.status">
+		
+						<option value="todo">{{statusText "todo"}}</option>
+						<option value="inprogress">{{statusText "inprogress"}}</option>
+						<option value="done">{{statusText "done"}}</option>
+					
+					</select>
+				</div>
+				</div>
+			</div>
+		</li>
+      </ul>
+    </div>
+
+
+
+
+<div class="content-block">
+	<div class="row">
+		<div class="col-50"><a href="#" id="cancel" class="button button-big">Cancel</a></div>
+		<div class="col-50"><a href="#" id="save" class="button button-big button-fill">Save</a></div>
+
+	</div>
+
+</div>
+
+</div>

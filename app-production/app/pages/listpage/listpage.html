@@ -1,0 +1,28 @@
+<div class="list-block media-list issue-list" >
+<div class="list-group">
+
+	<ul>
+	{{#each statusMap}}
+		<li class="h2">{{statusText @key}}</li>
+		
+		
+		
+		{{#each .}}
+			<li  class="issue">
+				<a href="#" class="item-link" {{data 'model'}}>
+					<div class="item-content">
+						<div class="item-inner">
+							<div class="item-title-row">
+								<div class="item-title title">{{title}}</div>
+							</div>
+							<div class="description">{{description}}</div>
+						</div>
+					</div>
+				</a>
+			</li>
+		{{/each}}
+		
+	{{/each}}
+	</ul>
+</div>
+</div>
