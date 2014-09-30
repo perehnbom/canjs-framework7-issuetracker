@@ -1,1 +1,0 @@
-define(["can"],function(e){e.Model.extend("Model.Comment",{},{})});

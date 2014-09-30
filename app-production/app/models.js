@@ -1,1 +1,0 @@
-define(["app/models/issue","app/models/comment"],function(){});
