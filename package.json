@@ -1,0 +1,13 @@
+{
+  "name": "canjs-requirejs",
+  "author": "Per Ehnbom <per.ehnbom@gmail.com>",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt-contrib-cssmin":       "latest",
+    "grunt-contrib-requirejs":    "latest",
+    "grunt-contrib-clean":        "latest",
+    "grunt-contrib-less":		  "latest",
+    "grunt-contrib-watch":		  "latest",
+    "grunt":                      "~0.4"
+  }
+}

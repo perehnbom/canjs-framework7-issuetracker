@@ -1,0 +1,66 @@
+
+    <div class="list-block issue-content">
+      <ul>
+      	<li class="item-content">
+          <div class="item-inner title">
+            {{issue.title}}
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner description">
+            {{issue.description}}
+          </div>
+        </li>
+       
+        <li>
+			<div class="item-content ">
+			
+				<div class="item-inner status">
+				<div class="item-title label">{{statusText issue.status}} </div>
+				<div class="item-input">
+					{{#if issue.nextStatus}}
+					<a class="button" id="move-to-next-status">Move to {{statusText issue.nextStatus}}</a>
+					{{/if}}
+				</div>
+				</div>
+			</div>
+		</li>
+      </ul>
+    </div>
+	
+	
+	
+	
+	
+	
+	<h2>Comments</h2>
+	
+	{{#each issue.comments}}
+	<div class="content-block comment">
+		<div class="title date">{{dateformat date}}</div>
+		<div class="text description">{{text}}</div>
+	</div>
+	{{/each}}
+	{{#unless issue.comments.length}}
+	<div class="content-block comment">
+		<div class="text description">No comments yet on this issue</div>
+	</div>
+	{{/unless}}
+
+	<div class="content-block list-block">
+	
+	
+	
+	<textarea class="description new-comment" placeholder="Post Comment" can-value="newComment.text"></textarea>
+	
+	<div class="row">
+		<div class="col-75"></div>
+		<div class="col-25">
+			<a class="button" id="post-comment">Post</a>
+		</div>
+	</div>
+         
+         
+         
+
+</div>

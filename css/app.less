@@ -1,0 +1,106 @@
+@white: #ffffff;
+@black: #000000;
+@blue: #4EB2CF;
+
+
+body {
+	background: @white;
+}
+.navbar {
+	border-bottom: none;
+	background: @blue;
+	color: @white;
+	a{
+		color: @white;
+	}
+	.center{
+		font-weight: 300;
+	}
+}
+.page, .pages {
+	background: #fff;
+}
+
+h2, .h2{
+		line-height: 22px;
+		padding: 20px 15px 0px 15px;
+		color: #000;
+		font-weight: 500;
+		border-bottom: 1px solid #ccc;
+		background-color: white;
+		font-size: 15px;
+	}
+
+.content-block{
+	color: #333;
+}
+.list-block{
+	
+	margin: 20px 0;
+}
+
+.list-block.issue-content{
+	ul, .item-inner{
+		border: none;
+	}
+	.description{
+		font-size: 13px;
+		color: #555;
+	}
+	.status{
+		font-weight: 300;
+	}
+	.title{
+		font-weight: 300;
+	}
+	input, textarea{
+		padding-left: 0;
+	}
+	textarea{
+		height: 80px;
+	}
+}
+
+
+
+.list-block.issue-list{
+	margin: 0;
+	.description{
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		font-size: 13px;
+		color: #555;
+	}
+	 .title, .title > input {
+		color: @black;
+		font-weight: 300;
+	}
+	
+	li.issue + .h2 {
+		margin-top: -1px;
+	}
+	ul {
+		border: none;
+	}
+}
+
+.content-block.comment{
+	margin: 10px 0;
+	.date{
+		font-size: 12px;
+		
+	}
+}
+
+.page_issue_page{
+	.issue-content .status{
+		padding-top: 30px;
+	}
+}
+textarea.new-comment{
+	border: 1px solid #eee;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-size: 14px;
+}
