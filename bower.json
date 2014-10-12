@@ -7,7 +7,6 @@
     "jquery": "~2.1.1",
     "requirejs": "~2.1.14",
     "text": "latest",
-    "canjs-commons": "https://github.com/perehnbom/canjs-commons.git",
     "framework7":	"~0.9.6"
 	}
 }

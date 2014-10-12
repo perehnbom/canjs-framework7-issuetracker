@@ -37,9 +37,9 @@ app.js
 /Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs/amd/can/component.js
 /Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs/amd/can.js
 /Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/text/text.js
-/Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs-commons/canjs-commons/mustachetemplate.js
+app/canjs-commons/mustachetemplate.js
 mtemplate!app/sitecontainer.html
-/Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs-commons/canjs-commons/extensions.js
+app/canjs-commons/extensions.js
 /Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs/amd/can/map/delegate.js
 /Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs/amd/can/construct/super.js
 /Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs/amd/can/construct/proxy.js
@@ -55,8 +55,8 @@ mtemplate!canjsfm7-plugin/popupnavbar.mustache
 app/canjsfm7-plugin/plugin.js
 mtemplate!app/pages/listpage/listpage.html
 mtemplate!app/pages/listpage/pagenavbar.html
-/Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs-commons/canjs-commons/functions.js
-/Users/perehnbom/git/canjs-framework7-issuetracker/bower_components/canjs-commons/canjs-commons/basecontroller.js
+app/canjs-commons/functions.js
+app/canjs-commons/basecontroller.js
 app/pages/listpage/listpage.js
 mtemplate!app/pages/issuepage/issuepage.html
 mtemplate!app/pages/issuepage/pagenavbar.html
