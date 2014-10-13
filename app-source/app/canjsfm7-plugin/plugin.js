@@ -37,7 +37,7 @@ define([ 'framework7', 'jquery', 'mtemplate!canjsfm7-plugin/pagebase.mustache',
 			
 			return controller._preRenderPhase().done(function(){
 
-				app.loadPage(view, pageConfig);
+				view.router.loadPage( pageConfig);
 									
 			});
 
