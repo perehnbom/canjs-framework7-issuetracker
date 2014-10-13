@@ -7,7 +7,7 @@
     "jquery": "~2.1.1",
     "requirejs": "~2.1.14",
     "text": "latest",
-    "framework7":	"~0.9.6"
+    "framework7":	"0.9.6"
 	}
 }
 
